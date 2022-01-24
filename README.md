@@ -5,28 +5,39 @@ A simple template for NodeJS API, using Nodemon to hot reload the application, s
 ## Running The Server
 
 1. Build the server
-
+# install node modules and dependencies   
 ~~~
-install node modules and dependencies       => npm install
+npm install
 ~~~
 
 2. Run the server
-
+# using Hot Reload  
 ~~~
-using Hot Reload                            => npm run dev
+npm run dev
+~~~
 
 or
 
-starting the server                         => npm start
+# Starting the server
 ~~~
+npm start
+~~~
+
 
 3. Optional 
+## Insert this commands bellow to:
+
+# Create a MIT license to your app            
 
 ~~~
-Insert this commands bellow to:
-
-create a MIT license to your app            => npx license mit > LICENSE
-generate a .gitignore file                  => npx gitignore node
+npx license mit > LICENSE
+npx gitignore node
 ~~~
+
+# Generate a .gitignore file
+~~~
+npx gitignore node
+~~~
+
 
 
